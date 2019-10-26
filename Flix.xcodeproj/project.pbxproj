@@ -10,8 +10,8 @@
 		444FC4CB6F09ED39C1B6B485 /* Pods_Flix.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 838EE94ABBC5FC1EA49B9EE2 /* Pods_Flix.framework */; };
 		8D332F6D51803E2956055E2F /* Pods_FlixTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E0E381F8B98EEAC6945FE9F4 /* Pods_FlixTests.framework */; };
 		A405987084BB22C856579EF3 /* Pods_FlixUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D9BFC9653920D5A021B72CF /* Pods_FlixUITests.framework */; };
-		DA385F28235EAEE9004FA914 /* MovieGridCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA385F27235EAEE9004FA914 /* MovieGridCell.swift */; };
 		DA3C85B5235E95E0003CA762 /* superhero_tabbar_item.png in Resources */ = {isa = PBXBuildFile; fileRef = DA3C85B4235E95E0003CA762 /* superhero_tabbar_item.png */; };
+		DA9F794823650F8C006F10E6 /* MovieGridCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA9F794723650F8C006F10E6 /* MovieGridCell.swift */; };
 		DAA0F96A2356724000125366 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAA0F9692356724000125366 /* AppDelegate.swift */; };
 		DAA0F96C2356724000125366 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAA0F96B2356724000125366 /* SceneDelegate.swift */; };
 		DAA0F9712356724000125366 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DAA0F96F2356724000125366 /* Main.storyboard */; };
@@ -53,8 +53,8 @@
 		6D9BFC9653920D5A021B72CF /* Pods_FlixUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FlixUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		838EE94ABBC5FC1EA49B9EE2 /* Pods_Flix.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Flix.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		92AC21173C7263300C1FFA53 /* Pods-FlixTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlixTests.release.xcconfig"; path = "Target Support Files/Pods-FlixTests/Pods-FlixTests.release.xcconfig"; sourceTree = "<group>"; };
-		DA385F27235EAEE9004FA914 /* MovieGridCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = MovieGridCell.swift; path = ../MovieGridCell.swift; sourceTree = "<group>"; };
 		DA3C85B4235E95E0003CA762 /* superhero_tabbar_item.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = superhero_tabbar_item.png; path = iOS_flix_assets/superhero_tabbar_item.png; sourceTree = "<group>"; };
+		DA9F794723650F8C006F10E6 /* MovieGridCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MovieGridCell.swift; sourceTree = "<group>"; };
 		DAA0F9662356724000125366 /* Flix.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Flix.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DAA0F9692356724000125366 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DAA0F96B2356724000125366 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -157,7 +157,7 @@
 		DAA0F9682356724000125366 /* Flix */ = {
 			isa = PBXGroup;
 			children = (
-				DA385F27235EAEE9004FA914 /* MovieGridCell.swift */,
+				DA9F794723650F8C006F10E6 /* MovieGridCell.swift */,
 				DAA0F99E235677CA00125366 /* MoviesViewController.swift */,
 				DAA0F9A0235684EA00125366 /* MovieCell.swift */,
 				DAA0F9692356724000125366 /* AppDelegate.swift */,
@@ -424,9 +424,9 @@
 				DAA0F96A2356724000125366 /* AppDelegate.swift in Sources */,
 				DAA8146E235E861600D03628 /* MovieDetailsViewController.swift in Sources */,
 				DAA81470235E92F800D03628 /* MovieGridViewController.swift in Sources */,
-				DA385F28235EAEE9004FA914 /* MovieGridCell.swift in Sources */,
 				DAA0F96C2356724000125366 /* SceneDelegate.swift in Sources */,
 				DAA0F9A1235684EA00125366 /* MovieCell.swift in Sources */,
+				DA9F794823650F8C006F10E6 /* MovieGridCell.swift in Sources */,
 				DAA0F99F235677CA00125366 /* MoviesViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
