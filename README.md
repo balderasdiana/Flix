@@ -21,7 +21,7 @@ Time spent: **10** hours spent in total
 * [x] (2pts) In the detail view, when the user taps the poster, a new screen is presented modally where they can view the trailer.
 
 ### App Walkthough GIF
-<img src="http://g.recordit.co/mjBBV5gGVV.gif"width=250><br>
+<img src="http://g.recordit.co/mjBBV5gGVV.gif" width=250><br>
 
 ### Notes
 Challenges: How to fix certain issues.
