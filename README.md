@@ -21,7 +21,7 @@ Time spent: **10** hours spent in total
 
 ### App Walkthough GIF
 
-<img src="http://g.recordit.co/ctlEVJKvre.gif" width=250><br> />
+<img src="http://g.recordit.co/ctlEVJKvre.gif" width=250><br> 
 
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
@@ -42,6 +42,8 @@ Challenges: How to use an API from an outside source.
 
 ### App Walkthough GIF
 <img src="http://g.recordit.co/mjBBV5gGVV.gif" width=250><br>
+
+GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
 ### Notes
 Challenges: How to fix certain issues.
